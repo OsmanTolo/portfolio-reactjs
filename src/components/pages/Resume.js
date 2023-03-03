@@ -5,3 +5,6 @@ const Resume = () => {
 };
 
 export default Resume;
+
+// add resume pdf to the public folder
+// html download link
