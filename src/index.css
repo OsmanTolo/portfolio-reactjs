@@ -1,22 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Lato:wght@400;700&display=swap");
+
 :root {
+  --light-clr: #fff;
+  --grey-clr: #d4d4d4;
+  --light-grey-clr: #e3e3e7;
+  --dark-clr: #000026;
+  --accent-clr: #4830e6;
+
+  --greyscale-dark-clr: #4c4c65;
+  --greyscale-light-clr: #e2e3e7;
+
+  --header-font-family: "Inconsolata", monospace;
+  --para-font-family: "Lato", sans-serif;
+
   --primary: #bc4123;
   --secondary: #2b3452;
 }
+
 body {
-  margin: 0;
-  padding: 20px;
-  font-family: "Poppins";
-  background: var(--secondary);
+  font-family: var(--para-font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  background: var(--light-clr);
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  padding: 1.2rem;
 }
-* {
-  color: #fff;
-  margin: 0;
-}
+
 p {
-  margin: 20px 0;
+  margin: 1.2rem 0;
 }
+
 button {
   border: 0;
   padding: 8px;
@@ -34,6 +50,7 @@ header nav {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 header nav .logo {
   margin-right: auto;
   border-bottom: 3px solid var(--primary);
