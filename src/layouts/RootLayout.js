@@ -21,9 +21,9 @@ export default function RootLayout() {
         {/* Renders the main page contents */}
         <Outlet />
       </main>
-      {/* <footer>
+      <footer>
         <Footer />
-      </footer> */}
+      </footer>
     </div>
   );
 }

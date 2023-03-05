@@ -200,7 +200,6 @@ main {
   display: flex;
   flex-direction: column;
   position: relative;
-  justify-content: center;
 }
 
 .project-card__img {
@@ -283,10 +282,8 @@ form label span {
 
 /* FOOTER */
 footer {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  /* position: fixed;
+  bottom: 0; */
   width: 100%;
   padding: 0.75rem 0;
   background-color: var(--color__body);
