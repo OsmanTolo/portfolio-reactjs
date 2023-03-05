@@ -7,7 +7,7 @@ export default function Home() {
         <div className="row">
           <div className="col-lg-8 hero-text">
             <p className="role">Front-end Developer</p>
-            <h1>Hi, I'm Osman Dumbuya</h1>
+            <h2 className="hero-title">Hi, I'm Osman Dumbuya</h2>
             <p className="description">
               I’m an electrical engineer turned software developer, currently
               living in Bristol. I enjoy crafting beautiful and accessible
