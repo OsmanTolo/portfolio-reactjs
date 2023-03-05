@@ -5,7 +5,7 @@ export default function Home() {
     <div className="home">
       <div>
         <div className="row">
-          <div className="col-8 hero-text">
+          <div className="col-lg-8 hero-text">
             <p className="role">Front-end Developer</p>
             <h1>Hi, I'm Osman Dumbuya</h1>
             <p className="description">
@@ -14,9 +14,9 @@ export default function Home() {
               software that work well for everyone on the web.
             </p>
           </div>
-          <div className="col">
+          <div className="col-lg img-container">
             <img
-              className="img-fluid float-end"
+              className="img-fluid float-end img"
               src={require("../images/osman-cropped-no-bg.png")}
               alt="Osman Dumbuya"
             />
