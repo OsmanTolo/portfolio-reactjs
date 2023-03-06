@@ -7,7 +7,27 @@ export default function Projects() {
     <div className="projects">
       <h1>Featured Projects</h1>
       <div className="projects-container">
-        <div className="project-card">
+        {projectData.map((project) => {
+          return (
+            <div className="project-card" key={project.id}>
+              <div className="project-card__img">
+                <img
+                  src={project.screenshotPath}
+                  alt="Custom README generator project screenshot"
+                />
+              </div>
+              <div className="project-card__content">
+                <h2>
+                  <a href={project.repoLink} className="project-card__link">
+                    {project.title}
+                  </a>
+                </h2>
+                <p>{project.description}</p>
+              </div>
+            </div>
+          );
+        })}
+        {/* <div className="project-card">
           <div className="project-card__img">
             <img
               src={require("../images/readme-generator.jpg")}
@@ -16,7 +36,10 @@ export default function Projects() {
           </div>
           <div className="project-card__content">
             <h2>
-              <a href="" className="project-card__link">
+              <a
+                href="https://github.com/OsmanTolo/readme_generator-node-js"
+                className="project-card__link"
+              >
                 Custom README Generator
               </a>
             </h2>
@@ -35,7 +58,10 @@ export default function Projects() {
           </div>
           <div className="project-card__content">
             <h2>
-              <a href="" className="project-card__link">
+              <a
+                href="https://github.com/OsmanTolo/readme_generator-node-js"
+                className="project-card__link"
+              >
                 Custom README Generator
               </a>
             </h2>
@@ -44,7 +70,7 @@ export default function Projects() {
               repository README based on user inputs.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
