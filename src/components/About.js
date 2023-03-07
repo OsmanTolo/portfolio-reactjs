@@ -6,7 +6,7 @@ export default function About() {
         <div class="col img-container">
           <img
             className="img-fluid mx-auto d-block img-container"
-            src={require("../images/osman-cropped-no-bg.png")}
+            src={require("../images/books.jpg")}
             alt="Osman Dumbuya"
           />
         </div>
@@ -19,7 +19,7 @@ export default function About() {
           <p>Things I'm excited about at the moment:</p>
           <ul>
             <li>Agile development</li>
-            <li>Contributing to opensource projects</li>
+            <li>Reading non-fiction books</li>
             <li>Creating web development content</li>
           </ul>
           <p>

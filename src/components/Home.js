@@ -13,6 +13,11 @@ export default function Home() {
               living in Bristol. I enjoy crafting beautiful and accessible
               software that work well for everyone on the web.
             </p>
+            <a href="../assets/osman-dumbuya-cv.pdf" download>
+              <button className="primary-btn">
+                <i className="fa fa-download"></i> Resume
+              </button>
+            </a>
           </div>
           <div className="col-lg img-container">
             <img

@@ -161,6 +161,11 @@ header nav a .active {
   );
 }
 
+.home button {
+  margin-top: 2rem;
+  width: 15%;
+}
+
 /* Skills */
 .skills-icons {
   font-size: 4rem;
@@ -240,10 +245,23 @@ header nav a .active {
 }
 
 /* ABOUT PAGE */
+.about-content {
+  gap: 3rem !important;
+}
 .about-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.about-content img {
+  /* width: 80%; */
+  border-radius: 0.3rem;
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  width: calc(100% - 1.5rem);
+  z-index: -1;
+  object-fit: fill;
 }
 
 /* CONTACT PAGE */

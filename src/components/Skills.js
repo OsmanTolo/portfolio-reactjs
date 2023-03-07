@@ -11,6 +11,10 @@ export default function Skills() {
           <p>CSS 3</p>
         </div>
         <div className="skill-icon">
+          <i className="fa-brands fa-bootstrap" alt="Bootstrap Icon"></i>
+          <p>Bootstrap</p>
+        </div>
+        <div className="skill-icon">
           <i className="fa-brands fa-square-js" alt="JavaScript Icon"></i>
           <p>JavaScript</p>
         </div>
