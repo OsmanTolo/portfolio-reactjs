@@ -6,7 +6,7 @@ export default function About() {
         <div class="col img-container">
           <img
             className="img-fluid mx-auto d-block img-container"
-            src={require("../images/books.jpg")}
+            src={require("../assets/images/books.jpg")}
             alt="Osman Dumbuya"
           />
         </div>

@@ -13,7 +13,7 @@ export default function Home() {
               living in Bristol. I enjoy crafting beautiful and accessible
               software that work well for everyone on the web.
             </p>
-            <a href="../assets/osman-dumbuya-cv.pdf" download>
+            <a href="/src/assets/osman-dumbuya-cv.pdf" download>
               <button className="primary-btn">
                 <i className="fa fa-download"></i> Resume
               </button>
@@ -22,7 +22,7 @@ export default function Home() {
           <div className="col-lg img-container">
             <img
               className="img-fluid float-end img"
-              src={require("../images/osman-cropped-no-bg.png")}
+              src={require("../assets/images/osman-cropped-no-bg.png")}
               alt="Osman Dumbuya"
             />
           </div>
