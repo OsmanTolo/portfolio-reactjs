@@ -33,22 +33,3 @@ export default function App() {
     <RouterProvider router={router} />
   );
 }
-
-{
-  /* <div className="project-card">
-<div className="project-card__img">
-  <img
-    src={require(project.screenshotPath)}
-    alt="Custom README generator project screenshot"
-  />
-</div>
-<div className="project-card__content">
-  <h2>
-    <a href="" className="project-card__link">
-      {project.title}
-    </a>
-  </h2>
-  <p>{project.description}</p>
-</div>
-</div> */
-}
