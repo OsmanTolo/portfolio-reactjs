@@ -17,11 +17,11 @@ export default function App() {
     // Router provider providing the router created from the CreateBrowserRouter function
     <HashRouter>
       <Routes>
-        <Route path="/portfolio-reactjs" element={<RootLayout />}>
-          <Route path="/portfolio-reactjs" element={<Home />} />
-          <Route path="/portfolio-reactjs/about" element={<About />} />
-          <Route path="/portfolio-reactjs/projects" element={<Projects />} />
-          <Route path="/portfolio-reactjs/contact" element={<Contact />} />
+        <Route path="/" element={<RootLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </HashRouter>
