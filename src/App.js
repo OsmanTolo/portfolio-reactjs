@@ -17,7 +17,7 @@ export default function App() {
     // Router provider providing the router created from the CreateBrowserRouter function
     <HashRouter>
       <Routes>
-        <Route path="/" element={<RootLayout />}>
+        <Route path="/portfolio-reactjs" element={<RootLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
